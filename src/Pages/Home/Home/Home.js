@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Banner from "../../Banner/Banner";
 
 const Home = () => {
-    return (
-        <div>
-            <h3>This is Home</h3>
-        </div>
-    );
+  return (
+    <div>
+      <Banner></Banner>
+    </div>
+  );
 };
 
 export default Home;
