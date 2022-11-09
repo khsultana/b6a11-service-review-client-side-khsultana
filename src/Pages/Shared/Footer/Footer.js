@@ -4,7 +4,7 @@ import logo from "../../../assets/images/logo/logo.png";
 const Footer = () => {
   return (
     <div data-theme="night">
-      <footer className="footer  p-10 bg-base-200 text-base-content">
+      <footer className="footer p-10 bg-base-200 text-base-content">
         <div className="ml-20">
           <span className="  footer-title">Visitor Agreement</span>
           <Link className="link link-hover"> AdChoices </Link>

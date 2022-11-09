@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/images/logo/logo.png";
-import { FaHome, FaCaretRight, FaUser, FaCartPlus } from "react-icons/fa";
+import {
+  FaHome,
+  FaCaretRight,
+  FaUser,
+  FaCartPlus,
+  FaQuestion,
+} from "react-icons/fa";
 
 const Header = () => {
   const menuItem = (
@@ -74,7 +80,7 @@ const Header = () => {
       </div>
       <div className="navbar-end">
         <Link className="btn btn-outline btn-error rounded-none">
-          Discover More
+          Ask Us <FaQuestion />
         </Link>
       </div>
     </div>
