@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowLeft, FaArrowRight, FaFolderOpen } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const CarouselItem = ({ slide }) => {
   const { image, id, prev, next } = slide;
@@ -13,9 +14,9 @@ const CarouselItem = ({ slide }) => {
           Home Made
           <br /> Food at your
           <br />{" "}
-          <a className="text-green-900 flex" href="/">
+          <Link className="text-green-900 flex" href="/">
             <FaFolderOpen /> Doorstep
-          </a>
+          </Link>
         </h1>
       </div>
       <div className="absolute gap-10 flex justify-end transform -translate-y-1/2 w-2/5 left-20 top-1/2">
@@ -31,12 +32,12 @@ const CarouselItem = ({ slide }) => {
         </button>
       </div>
       <div className="absolute gap-10 flex justify-end  transform -translate-y-1/2 left-5 right-5   bottom-0">
-        <a href={`#slide${prev}`} className="btn btn-circle">
+        <Link href={`#slide${prev}`} className="btn btn-circle">
           <FaArrowLeft />
-        </a>
-        <a href={`#slide${next}`} className="btn btn-circle">
+        </Link>
+        <Link href={`#slide${next}`} className="btn btn-circle">
           <FaArrowRight />
-        </a>
+        </Link>
       </div>
     </div>
   );

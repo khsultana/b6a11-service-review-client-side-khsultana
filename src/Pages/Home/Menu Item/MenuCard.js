@@ -5,7 +5,7 @@ const MenuCard = ({ menus }) => {
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">
-        <img className="h-64" src={image} alt="Food" />
+        <img className="h-64" src={image} alt="" />
 
         <div className="card-body">
           <h2 className="card-title">

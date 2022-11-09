@@ -22,8 +22,8 @@ const Header = () => {
         <Link className="font-semibold" to="/">
           <FaCartPlus /> Cart
         </Link>
-        <Link className="font-semibold" to="/">
-          <FaUser /> User
+        <Link className="font-semibold" to="/login">
+          <FaUser /> Login
         </Link>
       </li>
     </>
@@ -68,9 +68,9 @@ const Header = () => {
           <div>
             <h2 className="font-bold text-orange-600 font-serif text-lg">
               Sultana's{" "}
-              <a className="text-black" href="/" alt>
+              <Link className="text-black" href="/" alt>
                 Kitchen
-              </a>
+              </Link>
             </h2>
           </div>
         </Link>
