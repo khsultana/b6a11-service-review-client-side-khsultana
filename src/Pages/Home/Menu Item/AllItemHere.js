@@ -1,11 +1,12 @@
 import React from "react";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-const MenuCard = ({ menus }) => {
+
+const AllItemHere = ({ menus }) => {
   const { _id, image, name } = menus;
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className=" w-96 bg-base-100 shadow-xl">
         <img className="h-64" src={image} alt="" />
 
         <div className="card-body">
@@ -23,15 +24,18 @@ const MenuCard = ({ menus }) => {
             </div>
             <div className="badge badge-outline ">Tasty</div>
           </div>
-          {/* <Link to={`/checkout/${_id}`}>
-            <button className="btn btn-outline rounded-none text-center">
-              Order Now
-            </button>
-          </Link> */}
+
+          <div>
+            <Link to={`/checkout/${_id}`}>
+              <button className="btn btn-outline rounded-none text-center">
+                Details More
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default MenuCard;
+export default AllItemHere;

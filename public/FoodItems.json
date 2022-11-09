@@ -1,12 +1,10 @@
   [
     {
-      "_id": "636b6a09d4d22b21271d5a33",
-      "menuNo": 0,
+      "Item": 1,
        "image": "https://i.ibb.co/TkN12FT/image.png",
       "name": "Chingri Pulao",
-      "email": "elvacopeland@melbacor.com",
-      "phone": "+1 (912) 530-3212",
-      "address": "347 Clara Street, Flintville, Maryland, 6926",
+      "phone": "01734476505",
+      "address": "52, Green Road, Dhaka",
       "about": "Fresh Chingri infused in nuts and malai with rice to give you the real feels of simplicity!       ",
       "weight":"Chingri weight -  1 kg",
       "rice" :"Rice- Chinigura Chal",
@@ -28,13 +26,11 @@
       ]
     },
     {
-      "_id": "636b6a09e515955dbb1bf460",
-      "index": 1,
+      "Item": 2,
        "image":  "https://i.ibb.co/C6wYZ1b/image.png"  ,
       "name": "Ilish Pulao",
-      "email": "julianaspence@melbacor.com",
-      "phone": "+1 (971) 426-3710",
-      "address": "145 Beverly Road, Matthews, Palau, 7905",
+      "phone": "01734476505",
+      "address": "52, Green Road, Dhaka",
       "about": "Ilish Pulao, made with Ilish fish (Hilsa), is a delicious and extremely fragrant Bangali rice dish, popular all over Bengal .\r\n",
       "weight":"Ilish weight - 900 to 1 kg",
       "rice" :"Rice- Chinigura Chal",
@@ -56,13 +52,11 @@
       ]
     },
     {
-      "_id": "636b6a09138bc1a23a80e5fd",
-      "index": 2,
+      "Item": 3,
        "image": "https://i.ibb.co/s2TSWnR/image.png",
       "name": "Chicken Biryani",
-      "email": "conwaysullivan@melbacor.com",
-      "phone": "+1 (871) 514-2625",
-      "address": "258 Wyona Street, Morriston, American Samoa, 349",
+      "phone": "01734476505",
+      "address": "52, Green Road, Dhaka",
       "about": "A delicious savory rice dish that is loaded with spicy marinated chicken, browned caramelized onions, cilantro, mint, yogurt, saffron, ghee & spices. This dish will come with salad, boiled egg & potato      \r\n",
       "friends": [
         {
@@ -80,14 +74,12 @@
       ]
     },
     {
-      "_id": "636b6a092295b91ff66f1f9c",
-      "index": 3,
+      "Item": 4,
        "image": "https://i.ibb.co/GTLcpd1/image.png",
       "name": "Beef Biriyani",
-      "email": "hammondferguson@melbacor.com",
-      "phone": "+1 (949) 454-3872",
-      "address": "831 Coyle Street, Newry, Missouri, 9840",
-      "about": "these biriyani made by beef & chinigura rice.half egg , 2 pieces   cauliflower fry",
+      "phone": "01734476505",
+      "address": "52, Green Road, Dhaka",
+      "about": "These biriyani made by beef & chinigura rice.half egg , 2 pieces   cauliflower fry",
       "friends": [
         {
           "id": 0,
@@ -104,14 +96,12 @@
       ]
     },
     {
-      "_id": "636b6a090408597502a6cef2",
-      "index": 4,
+      "Item": 5,
        "image": "https://i.ibb.co/JjNKzkk/image.png",
       "name": "Kacchi Biriyani",
-      "email": "casandraboone@melbacor.com",
-      "phone": "+1 (879) 401-3231",
-      "address": "611 Victor Road, Walker, New Jersey, 1299",
-      "about": "Qui id aute officia anim voluptate reprehenderit commodo in cupidatat culpa duis magna culpa eiusmod. Cillum consectetur excepteur sit sunt culpa cillum commodo anim minim. Sit magna qui proident dolor incididunt culpa Lorem do et ullamco. Aliqua eiusmod ut et officia cupidatat culpa eu id commodo irure irure fugiat. Laboris deserunt adipisicing aute velit elit officia laborum minim in proident excepteur sunt tempor fugiat.\r\n",
+      "phone": "01734476505",
+      "address": "52, Green Road, Dhaka",
+      "about": "This Kacchi Biriyani so Yummy Home made food",
       "friends": [
         {
           "id": 0,
@@ -128,14 +118,12 @@
       ]
     },
     {
-      "_id": "636b6a0944b4d5e40d9bab6f",
-      "index": 5,
+      "Item": 6,
        "image": "https://i.ibb.co/ZT1Wbv0/image.png",
       "name": "Fried Rice",
-      "email": "ernestineboyd@melbacor.com",
-      "phone": "+1 (865) 555-2872",
-      "address": "599 Meadow Street, Harleigh, Arizona, 6319",
-      "about": "Lorem cillum pariatur adipisicing anim laboris officia magna magna mollit pariatur. Nisi pariatur ea esse exercitation exercitation anim minim. Esse ex minim incididunt ad aliqua minim do ut sunt sunt commodo est elit ad. Duis ut fugiat dolor non irure. Tempor ex nulla amet Lorem labore exercitation. Nisi velit consectetur officia sit excepteur qui Lorem. Eiusmod sit ipsum amet sint culpa voluptate et pariatur exercitation Lorem.\r\n",
+      "phone": "01734476505",
+      "address": "52, Green Road, Dhaka",
+      "about": "Fried Rice Fresh Food , Choose anybody and remember the taste",
       "friends": [
         {
           "id": 0,
