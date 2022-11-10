@@ -11,7 +11,13 @@ import { useContext } from "react";
 import { AuthContext } from "../../../Context/AuthProvider/AuthProvider";
 
 const Header = () => {
-  const { user } = useContext(AuthContext);
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleLogOut=()=>{
+    logOut()
+    .then()
+    .catch()
+  }
   const menuItem = (
     <>
       <li>
@@ -38,6 +44,7 @@ const Header = () => {
             <Link className="font-semibold" to="/orders">
               <FaUser /> Orders
             </Link>
+            <button onClick={handleLogOut} className="btn btn-ghost">Sign Out</button>
           </li>
         </>
       ) : (

@@ -7,6 +7,7 @@ import SeeAllMenu from "../../Pages/Home/Menu Item/SeeAllMenu";
 import Login from "../../Pages/Login/Login";
 import Orders from "../../Pages/Order/Orders";
 import SignUp from "../../Pages/SignUp/SignUp";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/checkout/:id",
-        element: <CheckOut></CheckOut>,
+        element: (
+          <PrivateRoute>
+            <CheckOut></CheckOut>
+          </PrivateRoute>
+        ),
         loader: ({ params }) =>
           fetch(
             `https://b6a11-service-review-server-side-khsultana.vercel.app/items/${params.id}`
@@ -39,7 +44,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/order/:id",
-        element: <ForOrder></ForOrder>,
+        element: (
+          <PrivateRoute>
+            <ForOrder></ForOrder>
+          </PrivateRoute>
+        ),
         loader: ({ params }) =>
           fetch(
             `https://b6a11-service-review-server-side-khsultana.vercel.app/items/${params.id}`
