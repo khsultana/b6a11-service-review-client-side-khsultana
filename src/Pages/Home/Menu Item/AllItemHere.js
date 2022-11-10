@@ -3,7 +3,7 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const AllItemHere = ({ menus }) => {
-  const { _id, image, name } = menus;
+  const { _id, image, name, about } = menus;
   return (
     <div>
       <div className=" w-96 bg-base-100 shadow-xl">
@@ -24,7 +24,9 @@ const AllItemHere = ({ menus }) => {
             </div>
             <div className="badge badge-outline ">Tasty</div>
           </div>
-
+          <div>
+            <p>{about.slice(0, 100) + '.......'}</p>
+          </div>
           <div>
             <Link to={`/checkout/${_id}`}>
               <button className="btn btn-outline rounded-none text-center">

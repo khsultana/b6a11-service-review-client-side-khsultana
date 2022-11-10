@@ -1,9 +1,10 @@
 import React from "react";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 import { Link, useLoaderData } from "react-router-dom";
+import Review from "./Review";
 
 const CheckOut = () => {
-  const { _id, name, image, about, phone, friends } = useLoaderData();
+  const { _id, name, image, about, phone, review, Price } = useLoaderData();
 
   return (
     <div>
@@ -15,6 +16,7 @@ const CheckOut = () => {
             {name}
             <div className="badge badge-secondary">NEW</div>
           </h2>
+          <p className="font-semibold text-xl text-green-600">Price : $ {Price}</p>
           <p>
             <b>About : -</b> {about}{" "}
           </p>
@@ -36,13 +38,11 @@ const CheckOut = () => {
         </div>
       </div>
       <div>
-        {friends.map((f) => (
-          <p className="text-orange-600">
-            {f.name} <FaStar />
-            <FaStar />
-            <FaStar />
-          </p>
-        ))}
+        <h2 className="text-xl font-bold text-orange-600"> Total Review : {review.length}</h2>
+        {review.map(rev => <Review
+          key={rev.id}
+          rev={rev}
+        ></Review>)}
       </div>
     </div>
   );

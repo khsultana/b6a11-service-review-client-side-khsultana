@@ -1,8 +1,7 @@
 import React from "react";
 import { FaStar, FaStarHalfAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
 const MenuCard = ({ menus }) => {
-  const { _id, image, name } = menus;
+  const { image, name } = menus;
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">

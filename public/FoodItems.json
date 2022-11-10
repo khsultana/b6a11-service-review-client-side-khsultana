@@ -1,141 +1,223 @@
   [
     {
       "Item": 1,
-       "image": "https://i.ibb.co/TkN12FT/image.png",
+      "image": "https://i.ibb.co/TkN12FT/image.png",
       "name": "Chingri Pulao",
       "phone": "01734476505",
-      "address": "52, Green Road, Dhaka",
-      "about": "Fresh Chingri infused in nuts and malai with rice to give you the real feels of simplicity!       ",
-      "weight":"Chingri weight -  1 kg",
-      "rice" :"Rice- Chinigura Chal",
-      "order":"Minimum ordere- 5 persons",
-      
-      "friends": [
+      "Price": "550",
+      "about": "Fresh Chingri infused in nuts and malai with rice to give you the real feels of simplicity! If you have prawns at home and wondering what to cook in a hurry then this delicious Prawn Pulao Recipe is just for you.    ",
+      "weight": "Chingri weight -  1 kg",
+      "rice": "Rice- Chinigura Chal",
+      "order": "Minimum ordere- 5 persons",
+      "review": [
         {
           "id": 0,
-          "name": "Rosalie Rivas"
+          "name": "Fahima Sharmin",
+          "img": "https://i.ibb.co/CVmDh0Z/image.png",
+          "reviews": "WOW"
         },
         {
           "id": 1,
-          "name": "Rodriguez Klein"
+          "name": "Sabiha Salam",
+          "img": "https://i.ibb.co/cXnfppW/image.png",
+          "reviews": "Yummy"
         },
         {
           "id": 2,
-          "name": "Kerri Atkinson"
+          "name": "Nahita Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 3,
+          "name": "Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
         }
       ]
     },
     {
       "Item": 2,
-       "image":  "https://i.ibb.co/C6wYZ1b/image.png"  ,
+      "image": "https://i.ibb.co/C6wYZ1b/image.png",
       "name": "Ilish Pulao",
       "phone": "01734476505",
-      "address": "52, Green Road, Dhaka",
+      "Price": "500",
       "about": "Ilish Pulao, made with Ilish fish (Hilsa), is a delicious and extremely fragrant Bangali rice dish, popular all over Bengal .\r\n",
-      "weight":"Ilish weight - 900 to 1 kg",
-      "rice" :"Rice- Chinigura Chal",
-      "order":"Minimum ordere- 5 persons",
-
-      "friends": [
+      "weight": "Ilish weight - 900 to 1 kg",
+      "rice": "Rice- Chinigura Chal",
+      "order": "Minimum ordere- 5 persons",
+      "review": [
         {
           "id": 0,
-          "name": "Carlene Luna"
+          "name": "Fahima Sharmin",
+          "img": "https://i.ibb.co/CVmDh0Z/image.png",
+          "reviews": "WOW"
         },
         {
           "id": 1,
-          "name": "Merritt Nicholson"
+          "name": "Sabiha Salam",
+          "img": "https://i.ibb.co/cXnfppW/image.png",
+          "reviews": "Yummy"
         },
         {
           "id": 2,
-          "name": "Diane Burke"
+          "name": "Nahita Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 3,
+          "name": "Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
         }
       ]
     },
     {
       "Item": 3,
-       "image": "https://i.ibb.co/s2TSWnR/image.png",
+      "image": "https://i.ibb.co/s2TSWnR/image.png",
       "name": "Chicken Biryani",
       "phone": "01734476505",
-      "address": "52, Green Road, Dhaka",
+      "Price": "450",
       "about": "A delicious savory rice dish that is loaded with spicy marinated chicken, browned caramelized onions, cilantro, mint, yogurt, saffron, ghee & spices. This dish will come with salad, boiled egg & potato      \r\n",
-      "friends": [
+      "review": [
         {
           "id": 0,
-          "name": "Harvey Villarreal"
+          "name": "Fahima Sharmin",
+          "img": "https://i.ibb.co/CVmDh0Z/image.png",
+          "reviews": "WOW"
         },
         {
           "id": 1,
-          "name": "Cindy Morse"
+          "name": "Sabiha Salam",
+          "img": "https://i.ibb.co/cXnfppW/image.png",
+          "reviews": "Yummy"
         },
         {
           "id": 2,
-          "name": "Wood Gilliam"
+          "name": "Nahita Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 3,
+          "name": "Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
         }
       ]
     },
     {
       "Item": 4,
-       "image": "https://i.ibb.co/GTLcpd1/image.png",
+      "image": "https://i.ibb.co/GTLcpd1/image.png",
       "name": "Beef Biriyani",
       "phone": "01734476505",
-      "address": "52, Green Road, Dhaka",
-      "about": "These biriyani made by beef & chinigura rice.half egg , 2 pieces   cauliflower fry",
-      "friends": [
+      "Price": "350",
+      "about": "Beef briyani, chicken kabab,, dem,, salad Perfect and mouthwatering set menu for lunch and dinner .Get this traditional Dhakaya style Biriyani with genuine taste and combination ",
+      "review": [
         {
           "id": 0,
-          "name": "Romero Everett"
+          "name": "Fahima Sharmin",
+          "img": "https://i.ibb.co/CVmDh0Z/image.png",
+          "reviews": "WOW"
         },
         {
           "id": 1,
-          "name": "Nancy Wooten"
+          "name": "Sabiha Salam",
+          "img": "https://i.ibb.co/cXnfppW/image.png",
+          "reviews": "Yummy"
         },
         {
           "id": 2,
-          "name": "Pennington Strong"
+          "name": "Nahita Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 3,
+          "name": "Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 4,
+          "name": "Nahita Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 5,
+          "name": "Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
         }
       ]
     },
     {
       "Item": 5,
-       "image": "https://i.ibb.co/JjNKzkk/image.png",
+      "image": "https://i.ibb.co/JjNKzkk/image.png",
       "name": "Kacchi Biriyani",
       "phone": "01734476505",
-      "address": "52, Green Road, Dhaka",
-      "about": "This Kacchi Biriyani so Yummy Home made food",
-      "friends": [
+      "Price": "650",
+      "about": "Kacchi means 'raw' - When the meat is added raw to the biryani pot, then it is referred to as Kacchi Biryani whereas Pakki is when the completely or partially cooked meat is added to the biryani pot and is sometimes layered",
+      "review": [
         {
           "id": 0,
-          "name": "Durham Gentry"
+          "name": "Fahima Sharmin",
+          "img": "https://i.ibb.co/CVmDh0Z/image.png",
+          "reviews": "WOW"
         },
         {
           "id": 1,
-          "name": "Ofelia Levy"
+          "name": "Sabiha Salam",
+          "img": "https://i.ibb.co/cXnfppW/image.png",
+          "reviews": "Yummy"
         },
         {
           "id": 2,
-          "name": "Crystal Houston"
+          "name": "Nahita Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 3,
+          "name": "Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
         }
       ]
     },
     {
       "Item": 6,
-       "image": "https://i.ibb.co/ZT1Wbv0/image.png",
+      "image": "https://i.ibb.co/ZT1Wbv0/image.png",
       "name": "Fried Rice",
       "phone": "01734476505",
-      "address": "52, Green Road, Dhaka",
-      "about": "Fried Rice Fresh Food , Choose anybody and remember the taste",
-      "friends": [
+      "Price": "250",
+      "about": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. It is often eaten by itself or as an accompaniment to another dish ",
+      "review": [
         {
           "id": 0,
-          "name": "Davis Ballard"
+          "name": "Fahima Sharmin",
+          "img": "https://i.ibb.co/CVmDh0Z/image.png",
+          "reviews": "WOW"
         },
         {
           "id": 1,
-          "name": "Blevins Ellison"
+          "name": "Sabiha Salam",
+          "img": "https://i.ibb.co/cXnfppW/image.png",
+          "reviews": "Yummy"
         },
         {
           "id": 2,
-          "name": "Cassandra Barlow"
+          "name": "Nahita Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
+        },
+        {
+          "id": 3,
+          "name": "Nishmin",
+          "img": "https://i.ibb.co/h7FsGgY/image.png",
+          "reviews": "So Delicious"
         }
       ]
     }
