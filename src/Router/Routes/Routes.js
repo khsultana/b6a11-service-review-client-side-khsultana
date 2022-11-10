@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 import CheckOut from "../../Pages/CheckOut/CheckOut";
+import ForOrder from "../../Pages/CheckOut/ForOrder";
 import Home from "../../Pages/Home/Home/Home";
 import SeeAllMenu from "../../Pages/Home/Menu Item/SeeAllMenu";
 import Login from "../../Pages/Login/Login";
@@ -30,6 +31,12 @@ const router = createBrowserRouter([
       {
         path: "/checkout/:id",
         element: <CheckOut></CheckOut>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/items/${params.id}`),
+      },
+      {
+        path: "/order/:id",
+        element: <ForOrder></ForOrder>,
         loader: ({ params }) =>
           fetch(`http://localhost:5000/items/${params.id}`),
       },

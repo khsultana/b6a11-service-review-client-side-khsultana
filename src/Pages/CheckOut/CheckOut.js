@@ -4,7 +4,7 @@ import { Link, useLoaderData } from "react-router-dom";
 import Review from "./Review";
 
 const CheckOut = () => {
-  const { _id, name, image, about, phone, review, Price } = useLoaderData();
+  const { _id, name, image, about, phone, review, Price, weight, rice, order } = useLoaderData();
 
   return (
     <div>
@@ -20,7 +20,11 @@ const CheckOut = () => {
           <p>
             <b>About : -</b> {about}{" "}
           </p>
-          <p className="font-semibold">Contact: {phone} </p>
+          <p className="font-semibold mb-2">Contact: {phone} </p>
+          <p className="font-semibold mb-2">Feature: {weight} </p>
+          <p className="font-semibold mb-2">Instrument:{rice} </p>
+          <p className="font-semibold mb-2">Min Order: {order} </p>
+
           <div className="card-actions justify-end">
             <div className="badge badge-outline text-orange-500">
               <FaStar />
@@ -30,7 +34,7 @@ const CheckOut = () => {
             </div>
             <div className="badge badge-outline ">Tasty</div>
           </div>
-          <Link to={`/checkout/${_id}`}>
+          <Link to={`/order/${_id}`}>
             <button className="btn btn-outline rounded-none text-center">
               Order Now
             </button>
