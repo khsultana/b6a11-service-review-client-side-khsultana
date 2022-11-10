@@ -6,7 +6,9 @@ const Orders = () => {
   const { user } = useContext(AuthContext);
   const [orders, setOrder] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/orders?email=${user?.email}`)
+    fetch(
+      `https://b6a11-service-review-server-side-khsultana.vercel.app/orders?email=${user?.email}`
+    )
       .then((res) => res.json())
       .then((data) => setOrder(data));
   }, [user?.email]);
@@ -14,9 +16,12 @@ const Orders = () => {
   const handleDelete = (id) => {
     const process = window.confirm("Are You Sure ? ");
     if (process) {
-      fetch(`http://localhost:5000/orders/${id}`, {
-        method: "DELETE",
-      })
+      fetch(
+        `https://b6a11-service-review-server-side-khsultana.vercel.app/orders/${id}`,
+        {
+          method: "DELETE",
+        }
+      )
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
@@ -30,13 +35,16 @@ const Orders = () => {
   };
 
   const handleStatusUpdate = (id) => {
-    fetch(`http://localhost:5000/orders/${id}`, {
-      method: "PATCH",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({ status: "Approved Item" }),
-    })
+    fetch(
+      `https://b6a11-service-review-server-side-khsultana.vercel.app/orders/${id}`,
+      {
+        method: "PATCH",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ status: "Approved Item" }),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

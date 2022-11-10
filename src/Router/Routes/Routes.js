@@ -33,13 +33,17 @@ const router = createBrowserRouter([
         path: "/checkout/:id",
         element: <CheckOut></CheckOut>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/items/${params.id}`),
+          fetch(
+            `https://b6a11-service-review-server-side-khsultana.vercel.app/items/${params.id}`
+          ),
       },
       {
         path: "/order/:id",
         element: <ForOrder></ForOrder>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/items/${params.id}`),
+          fetch(
+            `https://b6a11-service-review-server-side-khsultana.vercel.app/items/${params.id}`
+          ),
       },
       {
         path: "/orders",

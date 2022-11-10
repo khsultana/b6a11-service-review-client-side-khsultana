@@ -4,7 +4,7 @@ import AllItemHere from "./AllItemHere";
 const SeeAllMenu = () => {
   const [menu, setMenu] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/items")
+    fetch("https://b6a11-service-review-server-side-khsultana.vercel.app/items")
       .then((res) => res.json())
       .then((data) => setMenu(data));
   });

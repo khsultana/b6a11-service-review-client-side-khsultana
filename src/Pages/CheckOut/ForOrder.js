@@ -24,13 +24,16 @@ const ForOrder = () => {
       message,
     };
 
-    fetch("http://localhost:5000/orderItem", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(orders),
-    })
+    fetch(
+      "https://b6a11-service-review-server-side-khsultana.vercel.app/orderItem",
+      {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(orders),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);

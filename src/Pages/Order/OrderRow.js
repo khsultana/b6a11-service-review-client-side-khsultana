@@ -4,7 +4,9 @@ const OrderRow = ({ order, handleDelete, handleStatusUpdate }) => {
   const { _id, itemsN, Price, customer, email, items, status } = order;
   const [orderItem, setOrderItem] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/items/${items}`)
+    fetch(
+      `https://b6a11-service-review-server-side-khsultana.vercel.app/items/${items}`
+    )
       .then((res) => res.json())
       .then((data) => setOrderItem(data));
   }, [items]);
