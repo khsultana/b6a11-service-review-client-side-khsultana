@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../../assets/images/logo/logo.png";
 import {
@@ -8,27 +7,48 @@ import {
   FaCartPlus,
   FaQuestion,
 } from "react-icons/fa";
+import { useContext } from "react";
+import { AuthContext } from "../../../Context/AuthProvider/AuthProvider";
 
 const Header = () => {
+  const { user } = useContext(AuthContext);
   const menuItem = (
     <>
       <li>
         <Link className="font-semibold" to="/">
-          <FaHome></FaHome> Home
+          {" "}
+          <FaHome></FaHome> Home{" "}
         </Link>
+      </li>
+      <li>
+        {" "}
         <Link className="font-semibold" to="/">
           <FaCaretRight /> Category
         </Link>
+      </li>
+
+      <li>
         <Link className="font-semibold" to="/">
           <FaCartPlus /> Cart
         </Link>
-        <Link className="font-semibold" to="/login">
-          <FaUser /> Login
-        </Link>
       </li>
+      {user?.email ? (
+        <>
+          <li>
+            <Link className="font-semibold" to="/orders">
+              <FaUser /> Orders
+            </Link>
+          </li>
+        </>
+      ) : (
+        <li>
+          <Link className="font-semibold" to="/login">
+            <FaUser /> Login
+          </Link>
+        </li>
+      )}
     </>
   );
-
   return (
     <div className="navbar mb-4 mt-4 bg-base-100">
       <div className="navbar-start">

@@ -5,6 +5,7 @@ import ForOrder from "../../Pages/CheckOut/ForOrder";
 import Home from "../../Pages/Home/Home/Home";
 import SeeAllMenu from "../../Pages/Home/Menu Item/SeeAllMenu";
 import Login from "../../Pages/Login/Login";
+import Orders from "../../Pages/Order/Orders";
 import SignUp from "../../Pages/SignUp/SignUp";
 
 const router = createBrowserRouter([
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
         element: <ForOrder></ForOrder>,
         loader: ({ params }) =>
           fetch(`http://localhost:5000/items/${params.id}`),
+      },
+      {
+        path: "/orders",
+        element: <Orders></Orders>,
       },
     ],
   },
